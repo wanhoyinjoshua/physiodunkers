@@ -1,0 +1,45 @@
+*{
+    margin: 0em;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+.contain{
+    padding: 5px;
+    
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+  }
+  .header{
+      background-color: rgb(66, 66, 66);
+  }
+  /* Clear floats after the columns */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .headerwords{
+   padding-top: 10%;
+      margin: auto;
+      color: honeydew;
+      font-size: 50%;
+  }
+  .headerwords:hover{
+      cursor: pointer;
+      color: black;
+      font-size: 50%;
+      
+  }
+  .imgcontain{
+      width: 100%;
+    
+  }
+  .content{
+     
+  }
