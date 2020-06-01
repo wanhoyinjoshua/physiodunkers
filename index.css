@@ -47,11 +47,12 @@ font-size: 2rem;
     
 }
 body{
- 
+background-color: ;
 }
 .masterwrapper{
   
   padding: 5% 10% 5% 10%;
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -272,7 +273,7 @@ h1{
   display : grid;
   grid-template-columns: 50% fit-content(50%);
   
-
+  padding-top: 150px;
   padding-bottom: 300px;
 
 }
@@ -290,7 +291,7 @@ h1{
    .twoinone{
     display : block;
     
-    padding-bottom: 150px;
+    padding-bottom: 100px;
   
   }
   .welcomcat{
@@ -298,4 +299,24 @@ h1{
     font-size: 2rem;
   }
 }
+
+#map{
+  width: 90%;
+  height: 700px;
+  display: block;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  #map{
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: auto;
+  }
+}
   
+footer{
+  background-color: darkgrey;
+  width: 100%;
+  height: 200px;
+}
